@@ -8,6 +8,7 @@
     "html"
   ],
   "main": "src/index.js",
+  "homepage": "https://react-laptop-1.onrender.com/",
   "dependencies": {
     "@headlessui/react": "1.4.0",
     "@heroicons/react": "1.0.6",
