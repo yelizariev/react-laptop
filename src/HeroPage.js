@@ -84,7 +84,7 @@ export default function Example() {
     <div className="relative bg-gray-50">
       <main>
           <div
-      className="mx-auto max-w-7xl w-full px-4 text-left"
+      className="mx-auto max-w-7xl w-full px-4 text-left prose prose-xl"
       dangerouslySetInnerHTML={{
           __html: window.APP_CONFIG?.htmlContent || '',
       }}
