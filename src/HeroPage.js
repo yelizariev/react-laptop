@@ -82,9 +82,9 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <div className="relative bg-gray-50">
-      <main>
+      <main className="prose prose-xl">
           <div
-      className="mx-auto max-w-7xl w-full px-4 text-left prose prose-xl"
+      className="mx-auto max-w-7xl w-full px-4 text-left"
       dangerouslySetInnerHTML={{
           __html: window.APP_CONFIG?.htmlContent || '',
       }}
